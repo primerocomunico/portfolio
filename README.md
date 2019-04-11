@@ -17,6 +17,7 @@
 
 <h2>Mejoras 2.0</h2>
 <ul>
+ <li>Utilizar Google Fonts</li>
  <li>Actualización del apartado portfolio con nuevos contenidos</li>
  <li>Traducción de todo el contenido</li>
  <li>Actualización de curriculum</li>
