@@ -1,0 +1,103 @@
+$radius-img: 10px;
+$icon-size: 40px;
+
+h1, h2, h3 {
+  margin-top: 30px;
+  text-align: center;
+  .experience {
+    margin-top: -30px;
+    text-align: center;
+  }
+}
+
+hr {
+  width: 60%;
+}
+
+.logotipo {
+  margin: 0 auto;
+  width: 200px;
+  .logo {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.contenido {
+  width: 100%;
+  max-width: 100%;
+    .nav-tag {
+      margin: 0 10px;
+      @media (max-width: 570px) {
+        margin: 0 5px;
+        font-size: 14px;
+      }
+    }
+  .img-contact{
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.col-reduce {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.portfolio {
+  width: 100%;
+  margin-top: 30px;
+  @media (max-width: 570px) {
+    width: 70%;
+    margin: 5px auto;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.color-content {
+  background-color: #F8F9FA;
+  padding: 30px;
+  border-radius: $radius-img;
+}
+
+.img-me {
+  border-radius: $radius-img;
+}
+
+.empresa {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.img-contact {
+  width: 80%;
+  border-radius: $radius-img;
+}
+
+.social {
+  width: 70%;
+  max-width: 70%;
+}
+
+.fa-linkedin, .fa-twitter-square, .fa-github-square {
+  font-size: $icon-size;
+  color: #007BFF;
+}
+
+.footer {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 100%;
+  padding-top: 40px;
+  height: 100px;
+  background-color: black;
+}
+
+.footer p {
+  text-align: center;
+  color: white;
+}
