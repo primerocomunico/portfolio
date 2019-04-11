@@ -6,6 +6,7 @@
   <li>Bootstrap 4</li>
   <li>SASS</li>
   <li>CSS 3</li>
+ <li>Photoshop</li>
 </ul>
 
 <h2>Retos</h2>
