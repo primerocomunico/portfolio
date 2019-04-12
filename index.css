@@ -1,0 +1,106 @@
+h1, h2, h3 {
+  margin-top: 30px;
+  text-align: center;
+}
+h1 .experience, h2 .experience, h3 .experience {
+  margin-top: -30px;
+  text-align: center;
+}
+
+hr {
+  width: 60%;
+}
+
+.logotipo {
+  margin: 0 auto;
+  width: 200px;
+}
+.logotipo .logo {
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contenido {
+  width: 100%;
+  max-width: 100%;
+}
+.contenido .nav-tag {
+  margin: 0 10px;
+}
+@media (max-width: 570px) {
+  .contenido .nav-tag {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+}
+.contenido .img-contact {
+  width: 100%;
+  max-width: 100%;
+}
+
+.col-reduce {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.portfolio {
+  width: 100%;
+  margin-top: 30px;
+}
+@media (max-width: 570px) {
+  .portfolio {
+    width: 70%;
+    margin: 5px auto;
+  }
+}
+.portfolio img {
+  width: 100%;
+}
+
+.color-content {
+  background-color: #F8F9FA;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.img-me {
+  border-radius: 10px;
+}
+
+.empresa {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.img-contact {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.social {
+  width: 70%;
+  max-width: 70%;
+}
+
+.fa-linkedin, .fa-twitter-square, .fa-github-square {
+  font-size: 40px;
+  color: #007BFF;
+}
+
+.footer {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 100%;
+  padding-top: 40px;
+  height: 100px;
+  background-color: black;
+}
+
+.footer p {
+  text-align: center;
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */
