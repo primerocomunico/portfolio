@@ -30,9 +30,18 @@ hr {
   max-width: 100%;
     .nav-tag {
       margin: 0 10px;
+      color: blue;
+      font-size: 18px;
+      font-weight: 600;
+      color: #0069D9;
+      .sr-only {
+        font-weight: bold;
+      }
       @media (max-width: 570px) {
         margin: 0 5px;
-        font-size: 14px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #0069D9;
       }
     }
   .img-contact{
